@@ -1,0 +1,215 @@
+<!-- 網頁文件宣告html文件 -->
+<!doctype html>
+<!-- 網頁所屬地區語言 -->
+<html lang="zh-hant-tw">
+<!-- 網頁擋頭  -->
+<head>
+
+    <!-- 空元素，中繼標籤 -->
+     <!-- 網頁文字編碼 -->
+    <meta charset="utf-8">
+   <!-- 響應式網站RWD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="漫島旅遊">
+    <meta name="description" content="在旅途中，選擇一間舒適的住宿與遵守基本守則同樣重要。漫島精選十大住宿守則，從確認訂房、攜帶證件到維持環境安寧與安全，提醒旅人建立良好入住習慣，尊重空間與他人，也讓旅程更加安心愉快。同時推薦台灣四大區域的特色飯店：北部台北晶華酒店、中部日月潭涵碧樓、南部台南晶英酒店、東部花蓮理想大地渡假飯店，無論是親子出遊、情侶度假或商務旅行，都能找到最適合的落腳處，為旅程畫下完美句點。">
+    <meta name="generator" content="visual studio code">
+    <meta name="keyword" content="漫島,漫島住宿守則、住宿注意事項、旅遊住宿安全、台灣飯店推薦、北部飯店、台北晶華酒店、日月潭涵碧樓、南部住宿、台南晶英酒店、花蓮理想大地、東部渡假村、親子飯店推薦、設計飯店、高級住宿、深度旅遊、飯店評價、安全入住守則、旅宿禮儀、國內旅遊住宿選擇">
+   <!-- favicon(logo網頁版) -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico">
+    <!-- 網頁標題包含"網站名稱"和"網頁名稱" -->
+    <title>漫島旅遊-住宿資訊</title>
+   <!-- bootstrap雲端css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- google icon fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- GA追蹤分析 -->
+
+</head>
+  <body>
+      <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">漫島旅遊</a>
+          <!-- 手機版，導覽會收合成按鈕 -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- 導覽主內容，按鈕選單，搜尋表單 -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="hotel.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="safe.html">旅遊安全</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">留言發問</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="shop.html" target="_blank">購物平台</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="blog.html" target="_blank">部落格</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/tapei101.webp" class="d-block w-100" alt="台北101大樓" title="台北101大樓" aria-label="台北101大樓">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/onepeople.webp" class="d-block w-100" alt="九份老街" title="九份老街" aria-label="九份老街">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/park.webp" class="d-block w-100" alt="綠島潛旅" title="綠島潛旅" aria-label="綠島潛旅">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row mt-5">
+          <div id="notes"  class="card-no-border">
+            <img src="images/hotel/bed-4416515_1280.webp" class="imgCut" alt="住宿注意事項" title="住宿注意事項" aria-label="住宿注意事項">
+            <h2 class="alert alert-warning mt-4 " role="alert">漫島旅人住宿守則Top10</h2>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>1.確認預訂資訊</h5>
+                  <p>入住前請再次核對訂房日期、人數與房型，避免現場誤會或額外費用。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>2.準時辦理入住／退房</h5>
+                  <p> 遵守入住與退房時間，是對下一組旅人的尊重，也方便旅宿安排整潔。</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>3. 攜帶有效證件</h5>
+                  <p>辦理入住需出示身份證或護照，部分旅宿需登記所有入住者資料以保障安全。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>4. 尊重住宿空間規範</h5>
+                  <p> 請勿吸菸於禁菸區、勿擅動民宿私人物品，遵守館內公告與管制。</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>5. 維持安靜環境</h5>
+                  <p>晚上 10 點後降低音量，避免大聲喧嘩，尊重其他旅客的休息權利。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>6. 愛護設施與備品</h5>
+                  <p> 如發現損壞或故障，請主動告知服務人員，勿自行拆修，以免影響賠償責任。</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>7. 善用垃圾分類</h5>
+                  <p>部分旅宿會要求自行分類或將垃圾集中放置，請配合維護整潔環境。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>8. 避免攜帶寵物（除非可接受）</h5>
+                  <p> 非寵物友善住宿請勿私自攜帶動物入住，違者可能影響入住權益。</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <h5>9. 注意財物安全</h5>
+                  <p>貴重物品請隨身保管或使用房內保險箱，旅宿無法負責遺失損壞。</p>
+                </div>
+                <div class="col-lg-6">
+                  <h5>10. 給予真實評價與回饋</h5>
+                  <p> 入住結束後，不妨留下鼓勵與建議，幫助旅宿成長，也讓其他旅人參考。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <h2 class="alert alert-warning mt-4 " role="alert">住宿推薦</h2>
+        <div class="row mt-5">
+          <div class="col-lg-6 mt-3">
+            <div class="card">
+              <img src="images/hotel/taipei-hotel.webp" class="card-img-top" alt="台北晶華酒店" title="台北晶華酒店" aria-label="台北晶華酒店">
+              <div class="card-body">
+                <h4 class="card-title">台北晶華酒店</h4>
+                <p class="card-text">國際五星飯店，結合奢華與台灣文化細節。擁有頂樓露天泳池、米其林星級餐飲，鄰近中山商圈與捷運站，地理位置優越，適合商務與高端旅客。</p>
+                <p class="text-end"><a href="https://www.regenttaiwan.com/" target="_blank" class="btn btn-warning" role="button" >台北晶華酒店</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3">
+            <div class="card">
+              <img src="images/hotel/sunmoonlakehotel.webp" class="card-img-top" alt="日月潭涵碧樓" title="日月潭涵碧樓" aria-label="日月潭涵碧樓">
+              <div class="card-body">
+                <h4 class="card-title">日月潭涵碧樓</h4>
+                <p class="card-text">座落於日月潭畔，建築與湖光山色融為一體，是台灣最具代表性的設計飯店之一。提供靜謐環境與頂級服務，適合想放慢步調的情侶或家庭旅客。</p>
+                <p class="text-end"><a href="https://www.thelalu.com.tw/zh-tw" target="_blank" class="btn btn-warning" role="button" >日月潭涵碧樓</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6 mt-3">
+            <div class="card">
+              <img src="images/hotel/Silks-Place-Tainan.webp" class="card-img-top" alt="台南晶英酒店" title="台南晶英酒店" aria-label="台南晶英酒店">
+              <div class="card-body">
+                <h4 class="card-title">台南晶英酒店</h4>
+                <p class="card-text">緊鄰台南古蹟區，融合古都氛圍與現代美學。服務品質細緻，設施完善，適合想深度體驗台南人文與美食的旅人。</p>
+                <p class="text-end"><a href="https://tainan.silksplace.com/tw/index" target="_blank" class="btn btn-warning" role="button" >台南晶英酒店</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3">
+            <div class="card">
+              <img src="images/hotel/Promisedland-Resort-&-Lagoon.webp" class="card-img-top" alt="花蓮理想大地渡假飯店" title="花蓮理想大地渡假飯店" aria-label="花蓮理想大地渡假飯店">
+              <div class="card-body">
+                <h4 class="card-title">花蓮理想大地渡假飯店</h4>
+                <p class="card-text">擁有歐式河道與綠意環繞的空間，提供獨木舟、自然探索活動，深受親子與度假族群喜愛，是花東地區的經典度假選擇。</p>
+                <p class="text-end"><a href="https://www.plcresort.com.tw/zh_TW" target="_blank" class="btn btn-warning" role="button" >花蓮理想大地渡假飯店</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+    <footer class="container">
+        <p class="float-end"><a href="#top" class="btn btn-warning" role="button">回到頁面頂端</a></p>
+        <p>漫島旅遊2025 &copy; 此網頁有使用AI生成圖片 </p>
+      </footer>
+    </main>
+    <!-- bootstrap雲端js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>

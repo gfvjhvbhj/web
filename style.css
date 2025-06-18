@@ -1,0 +1,4 @@
+/* 外部樣式，以h1作為選取器，並且色彩表示選用rgb做上色 */
+h1{color:rgb(0, 0, 255)}
+
+header p{font-size: 3rem;}

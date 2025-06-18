@@ -1,0 +1,181 @@
+<!-- 網頁文件宣告html文件 -->
+<!doctype html>
+<!-- 網頁所屬地區語言 -->
+<html lang="zh-hant-tw">
+<!-- 網頁擋頭  -->
+<head>
+
+    <!-- 空元素，中繼標籤 -->
+     <!-- 網頁文字編碼 -->
+    <meta charset="utf-8">
+   <!-- 響應式網站RWD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="漫島旅遊">
+    <meta name="description" content="漫島 WanderIsland 以在地視角設計台灣旅程，串連自然、文化與人情風景。">
+    <meta name="generator" content="visual studio code">
+    <meta name="keyword" content="漫島,WanderIsland,台灣旅遊,在地旅遊,深度旅行,小鎮旅行,文化體驗,自然風景,人情風景,週末輕旅行,步行旅行,九份老街,綠島潛水,台南古城,花東縱谷,慢活旅遊,島內旅遊,永續旅行,台灣小旅行,旅遊品牌">
+   <!-- favicon(logo網頁版) -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico">
+    <!-- 網頁標題包含"網站名稱"和"網頁名稱" -->
+    <title>漫島旅遊-首頁</title>
+   <!-- bootstrap雲端css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/custom.css">
+    <!-- GA追蹤分析 -->
+
+</head>
+  <body>
+      <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">漫島旅遊</a>
+          <!-- 手機版，導覽會收合成按鈕 -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- 導覽主內容，按鈕選單，搜尋表單 -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hotel.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="safe.html">旅遊安全</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">留言發問</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="shop.html" target="_blank">購物平台</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/tapei101.webp" class="d-block w-100" alt="台北101大樓" title="台北101大樓" aria-label="台北101大樓">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/onepeople.webp" class="d-block w-100" alt="九份老街" title="九份老街" aria-label="九份老街">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/park.webp" class="d-block w-100" alt="綠島潛旅" title="綠島潛旅" aria-label="綠島潛旅">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 order-md-2 mt-5">
+              <a href="https://www.twtainan.net/zh-tw/" target="_blank"><img src="images/index/tainan.webp" class="rounded-circle w-100" alt="台南暮色" title="台南暮色" aria-label="台南暮色"></a>
+              <div class="card-body">
+                <h2 class="mt-3 h2-custom-gray">台南暮色</h2>
+                <p class="card-text">從孔廟旁的綠蔭開始，在巷弄裡吃下一碗牛肉湯，然後夜晚用一杯手工啤酒收尾。這座城市比你想的年輕，也比你記得的溫柔。</p>
+                <p class="text-start"><a href="https://www.twtainan.net/zh-tw/" target="_blank" class="btn btn-warning" role="button">台南暮色</a></p>
+              </div>
+
+            </div>
+          <div class="col-lg-4 order-md-0 mt-5">
+              <a href="https://www.erv-nsa.gov.tw/" target="_blank"><img src="images/index/sunmoonlake.webp" class="rounded-circle w-100" alt="花東縱谷" title="花東縱谷" aria-label="花東縱谷"></a>
+              <div class="card-body">
+                <h2 class="mt-3 h2-custom-gray">花東縱谷</h2>
+                <p class="card-text">沒有高樓、沒有喧囂，只有一望無際的綠與金。從池上騎單車，到鹿野喝咖啡，讓生活的節奏慢下來，在縱谷裡重新校準心跳。</p>
+                <a href="https://www.erv-nsa.gov.tw/" target="_blank" class="btn btn-warning">花東縱谷</a>
+              </div>
+
+          </div>
+          <div class="col-lg-4 order-md-1 mt-5">
+              <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001123&id=243" target="_blank"><img src="images/index/sea.webp" class="rounded-circle w-100" alt="綠島潛旅" title="綠島潛旅" aria-label="綠島潛旅"></a>
+              <div class="card-body">
+                <h2 class="mt-3 h2-custom-gray ">綠島潛旅</h2>
+                <p class="card-text">跳入太平洋的懷抱，在綠島的海底世界裡，遇見另一種寧靜與奇幻。珊瑚礁、熱帶魚、還有一段溫泉與燈塔的午後記憶，等你收藏。</p>
+                <p class="text-start"><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001123&id=243" target="_blank" class="btn btn-warning" role="button">綠島潛旅</a></p>
+              </div>
+
+          
+
+
+          </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+          <div class="col-md-7">
+            <h2>交通部觀光局</h2>
+            <p>交通部觀光局（Tourism Administration, MOTC, Republic of China (Taiwan)）是中華民國交通部下轄的機關，負責全國觀光政策的規劃、推動與執行，其核心目標是促進國內外觀光產業的發展，提升台灣的國際觀光形象與競爭力。</p>
+          </div>
+          <div class="col-md-5">
+            <img src ="images/index/smile.webp"  class="img-fluid mx-auto" alt="交通部觀光局" title="交通部觀光局" aria-label="交通部觀光局">
+          </div>
+        </div>
+      <hr>
+      <div class="row my-5">
+        <div class="col-md-7 order-md-1">
+            <h2>旅遊平安險｜安心出發，有我們在</h2>
+            <p>旅途中，最重要的不是風景，是你自己。
+            為了讓每一段旅程都更加安心，漫島全行程皆附加旅遊平安保險，保障內容包含：
+            意外傷害保險
+            醫療補助保障
+            緊急事故協助
+            我們與專業保險單位合作，無論是一日行程還是過夜路線，都為你準備好完整的保護。因為走得遠，也要走得穩。
+              </p>
+          </div>
+          <div class="col-md-5 order-md-0">
+            <img src ="images/index/lukang.webp" class="img-fluid mx-auto" alt="旅遊平安險" title="旅遊平安險" aria-label="旅遊平安險">
+          </div>
+        </div>
+      <hr>
+      <div class="row my-5">
+          <div class="col-md-7">
+            <h2>住宿安排｜好好休息，是旅程的起點</h2>
+            <p>我們相信，一晚舒適的睡眠，才能讓旅行更深刻。
+              漫島精選合作的在地旅宿，從老屋民宿、文青旅店到自然系小木屋，皆通過品質驗證，並提供以下服務：
+              舒適衛浴與乾淨寢具
+              免費 Wi-Fi 與飲水設施
+              多數旅宿支援素食與過敏備註需求
+            有些地方，值得你留下來一點時間感受。
+            而我們的任務，是替你找到那個「剛剛好」的歇腳處。</p>
+          </div>
+          <div class="col-md-5">
+            <img src ="images/index/hotel.webp"  class="img-fluid mx-auto" alt="住宿安排" title="住宿安排" aria-label="住宿安排">
+          </div>
+        </div>
+        <hr>
+      <footer class="container">
+        <p class="float-end"><a href="#top" class="btn btn-warning" role="button">回到頁面頂端</a></p>
+        <p>漫島旅遊2025 &copy; 此網頁有使用AI生成圖片 </p>
+      </footer>
+      </main>
+    <!-- bootstrap雲端js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>

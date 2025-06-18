@@ -1,0 +1,202 @@
+<!-- 網頁文件宣告html文件 -->
+<!doctype html>
+<!-- 網頁所屬地區語言 -->
+<html lang="zh-hant-tw">
+<!-- 網頁擋頭  -->
+<head>
+
+    <!-- 空元素，中繼標籤 -->
+     <!-- 網頁文字編碼 -->
+    <meta charset="utf-8">
+   <!-- 響應式網站RWD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="漫島旅遊">
+    <meta name="description" content="探索北中南東八大台灣私房景點，從北投溫泉到太麻里日出，體驗溫泉、鐵道、鹽田與海岸的慢旅行節奏，每一處都是時間的風景。">
+    <meta name="generator" content="visual studio code">
+    <meta name="keyword" content="漫島,北投溫泉, 金瓜石祕徑, 集集線鐵道, 谷關溫泉, 高雄駁二, 台南鹽田夕照, 都蘭海岸, 太麻里日出, 台灣旅遊, 北部景點, 中部景點, 南部景點, 東部景點, 台灣溫泉, 台灣鐵道旅行, 台灣藝術景點, 鹽田夕陽, 太平洋海岸, 台灣日出, 深度旅遊, 慢旅台灣, 自然風景, 文化旅遊, 在地旅行">
+   <!-- favicon(logo網頁版) -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico">
+    <!-- 網頁標題包含"網站名稱"和"網頁名稱" -->
+    <title>漫島旅遊-景點介紹</title>
+   <!-- bootstrap雲端css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/custom.css">
+    <!-- google icon fonts -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <!-- GA追蹤分析 -->
+
+</head>
+  <body>
+      <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">漫島旅遊</a>
+          <!-- 手機版，導覽會收合成按鈕 -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- 導覽主內容，按鈕選單，搜尋表單 -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hotel.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="safe.html">旅遊安全</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.php">留言發問</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="shop.html" target="_blank">購物平台</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="blog.html" target="_blank">部落格</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/tapei101.webp" class="d-block w-100" alt="台北101大樓" title="台北101大樓" aria-label="台北101大樓">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/onepeople.webp" class="d-block w-100" alt="九份老街" title="九份老街" aria-label="九份老街">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/park.webp" class="d-block w-100" alt="綠島潛旅" title="綠島潛旅" aria-label="綠島潛旅">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <h2 class="alert alert-warning mt-5">北部景點</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/viewpoint/spa.webp" class="card-img-top" alt="北投溫泉" title="北投溫泉" aria-label="北投溫泉">
+              <div class="card-body">
+                <h4 class="card-title">北投溫泉：時間蒸散的老街角</h4>
+                <p class="card-text">走進北投，你會發現溫泉不只是泡腳的藉口，更是一種過生活的方式。硫磺香氣瀰漫街頭，和昭和時代的建築一起緩慢呼吸。</p>
+                <p class="text-end"><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001090&id=2898" target="_blank" class="btn btn-warning" role="button" >北投溫泉</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6"> 
+            <div class="card">
+              <img src="images/viewpoint/buildings.webp" class="card-img-top" alt="金瓜石秘境" title="金瓜石秘境" aria-label="金瓜石秘境">
+              <div class="card-body">
+                <h4 class="card-title">金瓜石祕徑：山海之間的靜謐邊境</h4>
+                <p class="card-text">比九份更安靜一點的地方，藏著金瓜石的山徑與廢礦遺跡。走進老神社、倚著海岸遠眺，彷彿能聽見礦工與浪的對話。</p>
+                <p class="text-end"><a href="https://www.necoast-nsa.gov.tw/Area-Content.aspx?a=58&l=1" target="_blank" class="btn btn-warning" role="button" >金瓜石秘境</a></p>
+              </div>
+            </div>
+        </div>
+        <h2 class="alert alert-warning mt-5">中部景點</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/viewpoint/train.webp" class="card-img-top" alt="集集鐵道" title="集集鐵道" aria-label="集集鐵道">
+              <div class="card-body">
+                <h4 class="card-title">集集線鐵道：時光列車的慢速播放</h4>
+                <p class="card-text">走進北投，你會發現溫泉不只是泡腳的藉口，更是一種過生活的方式。硫磺香氣瀰漫街頭，和昭和時代的建築一起緩慢呼吸。</p>
+                <p class="text-end"><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0027025" target="_blank" class="btn btn-warning" role="button" >集集線鐵道</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/viewpoint/hotspring.webp" class="card-img-top" alt="谷關溫泉" title="谷關溫泉" aria-label="谷關溫泉">
+              <div class="card-body">
+                <h4 class="card-title">谷關溫泉：山裡藏著的療癒日常</h4>
+                <p class="card-text">位於大甲溪上游的谷關，是中台灣的溫泉秘境。遠離都市聲響，溫泉與山嵐成為一種生活配方，適合久坐辦公室的人深度解壓。</p>
+                <p class="text-end"><a href="https://travel.taichung.gov.tw/zh-tw/attractions/intro/346" target="_blank" class="btn btn-warning" role="button" >谷關溫泉</a></p>
+              </div>
+            </div>
+          </div>
+        <h2 class="alert alert-warning mt-5">南部景點</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/viewpoint/kaohsiung.webp" class="card-img-top" alt="高雄駁二" title="高雄駁二" aria-label="高雄駁二">
+              <div class="card-body">
+                <h4 class="card-title">高雄駁二：港邊的藝術自由國</h4>
+                <p class="card-text">在舊倉庫區與海風裡穿行，駁二是高雄最具活力的創意基地。文創市集、展覽、街頭演出，這裡的節奏輕快又有點浪漫。</p>
+                <p class="text-end"><a href="https://pier2.org/" target="_blank" class="btn btn-warning" role="button" >高雄駁二</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/viewpoint/salt.webp" class="card-img-top" alt="台南鹽田" title="台南鹽田" aria-label="台南鹽田">
+              <div class="card-body">
+                <h4 class="card-title">台南鹽田夕照：光影裡的靜止時刻</h4>
+                <p class="card-text">在北門或井仔腳，等待一場鹽田上的夕陽落下。那是靜止的風景，也是時間為這座古城寫下的詩。</p>
+                <p class="text-end"><a href="https://www.twtainan.net/zh-tw/attractions/detail/587/" target="_blank" class="btn btn-warning" role="button" >台南鹽田</a></p>
+              </div>
+            </div>
+          </div>
+        <h2 class="alert alert-warning mt-5">東部景點</h2>
+        <div class="row mb-5">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/viewpoint/sea-2790970_1280.webp" class="card-img-top" alt="都蘭海岸" title="都蘭海岸" aria-label="都蘭海岸">
+              <div class="card-body">
+                <h4 class="card-title">都蘭海岸：浪與草地之間的自由線條</h4>
+                <p class="card-text">東河包子配上太平洋風，成了台東最 chill 的行程。都蘭的海，適合靜靜坐著，也適合大聲吶喊。</p>
+                <p class="text-end"><a href="https://www.eastcoast-nsa.gov.tw/zh-tw/attractions/detail/34/" target="_blank" class="btn btn-warning" role="button" >都蘭海岸</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="images/viewpoint/sun.webp" class="card-img-top" alt="太麻里日出" title="太麻里日出" aria-label="太麻里日出">
+              <div class="card-body">
+                <h4 class="card-title">太麻里日出：迎光而行的早安儀式</h4>
+                <p class="card-text">「太陽升起的地方」不只是名字，太麻里的日出，是旅人們朝聖的理由。天色轉亮時，一切彷彿重新開始。</p>
+                <p class="text-end"><a href="https://www.taimali.gov.tw/home/" target="_blank" class="btn btn-warning" role="button" >太麻里日出</a></p>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+        <hr>
+    <footer class="container">
+        <p class="float-end"><a href="#top" class="btn btn-warning" role="button">回到頁面頂端</a></p>
+        <p>漫島旅遊2025 &copy; 此網頁有使用AI生成圖片 </p>
+      </footer>
+    </main>
+    <!-- bootstrap雲端js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
+</html>
